@@ -1,0 +1,12 @@
+@media(max-width:900px){
+  #navMenu {
+    display: none;
+  }
+  #navHamburger {
+    display: flex;
+  }
+#sliderMenu,
+#sliderMenu ul{
+  display: block;
+}
+}

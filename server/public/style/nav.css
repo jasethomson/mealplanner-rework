@@ -1,3 +1,13 @@
+nav {
+  background: #202125;
+  height: 68px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 100;
+  display: flex;
+}
+
 #logo,
 #logo > a > img {
   height: 68px;
@@ -6,4 +16,53 @@
 
 #logo {
   background: black;
+  padding: 0 32px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  transition: .4s;
+  padding: 0 32px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.active {
+  color: #f78333;
+}
+
+#navHamburger {
+  display: none;
+  color: white;
+  align-items: center;
+  padding-right: 15px;
+}
+
+#sliderMenu {
+  display: none;
+  top: 68px;
+  right: 0;
+  margin: 0 auto;
+  position: fixed;
+  background: #202125;
+  width: 30%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+#sliderMenu ul {
+  padding-left: 0;
+}
+
+#sliderMenu li:hover {
+   text-decoration: underline;
 }
