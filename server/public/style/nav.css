@@ -22,17 +22,24 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
+  padding-right: 32px;
 }
 
 nav li {
   list-style: none;
   transition: .4s;
   padding: 0 32px;
+  font-size:18px;
 }
 
 nav li a {
   text-decoration: none;
   color: #eee;
+  transition: .4s;
+}
+
+nav li a:hover {
+  color: #C0C0C0;
 }
 
 .active {

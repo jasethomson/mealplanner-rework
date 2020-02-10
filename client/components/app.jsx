@@ -1,6 +1,7 @@
 import React from 'react';
 import AppContext from './context';
 import Nav from './nav';
+import Footer from './footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 export default class App extends React.Component{
@@ -24,6 +25,7 @@ export default class App extends React.Component{
             <Route exact path="/" component={Home}/>
           </Router>
         </AppContext.Provider> */}
+        <Footer />
       </div>
     )
   }
