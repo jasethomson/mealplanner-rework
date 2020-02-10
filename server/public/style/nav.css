@@ -1,8 +1,9 @@
 nav {
   background: #202125;
-  height: 68px;
+  height: max-content;
   width: 100%;
   position: fixed;
+  top:0;
   justify-content: space-between;
   z-index: 100;
   display: flex;
@@ -60,14 +61,15 @@ nav li a:hover {
   margin: 0 auto;
   position: fixed;
   background: #202125;
-  width: 30%;
   text-align: center;
   font-size: 24px;
   line-height: 1.7;
+  width: max-content;
 }
 
 #sliderMenu ul {
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #sliderMenu li:hover {
