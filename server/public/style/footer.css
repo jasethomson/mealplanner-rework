@@ -1,6 +1,4 @@
 footer {
-  position: fixed;
-  bottom: 0;
   height: 120px;
   width: 100%;
   background: #202125;
@@ -13,6 +11,10 @@ footer {
 footer ul {
   list-style: none;
   display: flex;
+}
+
+footer h4 {
+  margin-bottom: 8px;
 }
 
 footer li a {
