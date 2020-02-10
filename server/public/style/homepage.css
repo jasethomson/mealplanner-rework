@@ -10,6 +10,21 @@
   align-items: center;
 }
 
+#titleAndForm {
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
+}
+
+#companyName {
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  height: 52px;
+  color: #202125;
+  font-family: 'Sriracha', cursive;
+}
+
 #homePage form {
   height: 50px;
   width: 58%;
@@ -36,5 +51,4 @@
   height: 45%;
   position: relative;
   text-align: center;
-
 }
