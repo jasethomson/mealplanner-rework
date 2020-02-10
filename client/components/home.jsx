@@ -24,16 +24,19 @@ export default class Home extends React.Component{
   render(){
     return (
       <div id="homePage">
-        <form className="searchBarForm" onSubmit={this.handleSearch}>
-          <input
-            className="searchBar"
-            type="search"
-            value={this.state.search}
-            placeholder="Search for your next recipe"
-            onChange={this.handleChange}
-          />
-         <i className="fas fa-search fa-lg" onClick={search => this.handleSearch(search)}></i>
-        </form>
+        <div id="titleAndForm">
+          <div id="companyName">MealPlanner</div>
+          <form className="searchBarForm" onSubmit={this.handleSearch}>
+            <input
+              className="searchBar"
+              type="search"
+              value={this.state.search}
+              placeholder="Search for your next recipe"
+              onChange={this.handleChange}
+            />
+            <i className="fas fa-search fa-lg" onClick={search => this.handleSearch(search)}></i>
+          </form>
+        </div>
       </div>
     )
   }
