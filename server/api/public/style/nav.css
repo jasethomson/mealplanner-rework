@@ -2,8 +2,7 @@ nav {
   background: #202125;
   height: max-content;
   width: 100%;
-  position: fixed;
-  top:0;
+  top: 0;
   justify-content: space-between;
   z-index: 100;
   display: flex;

@@ -3,6 +3,7 @@ import AppContext from './context';
 import Nav from './nav';
 import Home from './home';
 import Recipes from './recipes';
+import Groceries from './groceries';
 import Footer from './footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
@@ -26,6 +27,7 @@ export default class App extends React.Component{
           <Router>
             <Route exact path="/" component={Home}/>
             <Route exact path="/recipes" component={Recipes} />
+            <Route exact path="/groceries" component={Groceries} />
           </Router>
         </AppContext.Provider>
         <Footer />
