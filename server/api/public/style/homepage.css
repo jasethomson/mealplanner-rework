@@ -1,0 +1,54 @@
+#homePage{
+  background-image: url(../assets/home_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleAndForm {
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
+}
+
+#companyName {
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  height: 52px;
+  color: #202125;
+  font-family: 'Sriracha', cursive;
+}
+
+#homePage form {
+  height: 50px;
+  width: 58%;
+  min-width: 400px;
+  max-width: 600px;
+  margin-bottom: 200px;
+  border-radius: 6px;
+  border: 0;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+#homePage .searchBar {
+  width: 90%;
+  height: 100%;
+  border-radius: 6px;
+  border: 0;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+#homePage .fa-search {
+  width: 10%;
+  height: 45%;
+  position: relative;
+  text-align: center;
+}

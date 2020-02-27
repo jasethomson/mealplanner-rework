@@ -1,0 +1,36 @@
+footer {
+  height: 120px;
+  width: 100%;
+  background: #202125;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+}
+
+footer h4 {
+  margin-bottom: 8px;
+}
+
+footer li a {
+  color: whitesmoke;
+  padding: 0 16px;
+  transition: .4s;
+}
+
+.fa-linkedin:hover {
+  color: #0072B1;
+}
+
+.fa-github-square:hover {
+  color: #A9A9A9;
+}
+
+.fa-briefcase:hover {
+  color: lightcoral;
+}
